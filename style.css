@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body input {
+  border: none;
+  max-width: 6rem;
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem;  
+}
+body button {
+  margin-top: 1rem;
+  font-size: 2rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 20%;
+  border: none;
+}
+body .increase-btn{
+  background: #00aaa0; 
+  color: white;
+}
+body .increase-btn:hover{
+  background: #00aa9fd9; 
+}
+body .decrease-btn{
+  color: white;
+  background: #d55b3e; 
+}
+body .decrease-btn:hover{
+  background: #d55c3ecd; 
+}
+body .reset-btn{
+  background: #8ed2c9;
+  color: white;
+}
+body .reset-btn:hover{
+  background: #8ed2c9d9;
+}
+body .alert-decrease{
+  visibility: hidden;
+  position: absolute;
+  color: red;
+}
+body .alert-reset{
+  color: red;
+  position: absolute;
+  visibility: hidden;
+}
